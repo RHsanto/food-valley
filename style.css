@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+color: #575757;
+font-family: 'Poppins', sans-serif;
+text-transform: capitalize;
+}
+
+/* Header section css */
+header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  box-shadow: 10px 10px 30px rgb(241, 240, 240);
+  background-color: white;
+ }
+ 
+.logo h1{
+  padding: 20px 50px;
+  font-size: 3rem;
+  font-family: 'Aladin', cursive;
+  letter-spacing: 2px;
+  color: #F9B402;
+}
+
+.logo span{
+  color:#F9194F;
+}
+
+.menu{
+  padding: 30px 0px;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+.menu ul li{
+display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.flex{
+  display: flex;
+  padding-top: 200px;
+}
+
+
+.half{
+  width: 50%;
+  padding-left: 15%;
+  text-transform: capitalize;
+}
+
+.half span{font-size: 4rem; color: #F9194F;}
+
+.half h2{  
+  font-size: 4rem; 
+  padding-bottom: 10px;
+  line-height: 80px;
+ color: #575757;
+}
+.half p{
+font-size: 1.5rem;
+line-height: 45PX;
+padding: 30PX  0;
+word-spacing: 5px;
+padding-bottom: 50px;
+}
+.half a{
+  text-decoration: none;
+  color: white;
+  padding: 20px 45px;
+  background: linear-gradient(#9acce7,#14B8FC);
+  border-radius: 50px;
+  font-weight: 600;
+ font-size: 22px;
+ letter-spacing: 1px;
+}
+
+.half img{
+margin-top: -100px;
+width: 100%;
+
+}
+
+/* about section */
+
+.about-section{
+  display: flex;
+  margin-bottom: 150px;
+  background-image: url(img/3.jpg);
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}
+
+.img  img{
+width: 70%;
+padding-top: 30%;
+}
+.a-content {
+  padding-top: 10%;
+}
+.a-content h1{
+  font-size: 3.5rem;
+  color: #575757;
+}
+.a-content p{
+margin-bottom: 50px;
+text-align: justify;
+margin-right: 50px;
+font-size: 20px;
+}
+
+/* recipie-card section */
+
+
+.r-content{
+  text-align: center;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.r-content h1{
+ font-size: 3rem;
+ color: #F9B402;
+}
+
+.r-content span{
+  color: #F9194F;
+}
+.r-content p{
+  padding: 20px;
+  font-size: 1.5rem;
+  line-height: 35px;
+}
+.recipie-card{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.r-card{
+  width: 20%;
+  margin-left: 150px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 40px rgb(187, 181, 181);
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+}
+.r-card h2{
+text-align: left;
+padding: 30px 0px;
+font-size: 2.4rem;
+color: black;
+}
+
+.r-card p{
+  text-align: left;
+ font-size: 20px;
+ line-height: 30px;
+padding-bottom: 50px;
+}
+.r-card img{
+  width: 100%;
+}
+
+/* order-section */
+.order {
+  margin-bottom: 100px;
+}
+.order h1{
+  text-align: center;
+  font-size: 3rem;
+  color: #F9B402;
+}
+.order span{
+color:#F9194F;
+}
+.order-form{
+display: flex;
+margin-top: 50px;
+margin-left: 10%;
+box-shadow: 10px 10px 40px rgb(219, 215, 215);
+width: 80%;
+border-radius: 20px;
+}
+.order-form img{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+form{
+padding-left: 50px;
+padding-top: 50px;
+}
+ input{
+padding: 15px 55px;
+border-radius: 5px;
+ }
+
+ input::placeholder, textarea::placeholder {
+   font-size: 19px;
+   font-weight: 600;
+
+ }
+
+ .text, .number{
+   margin-right: 30px;
+   margin-bottom: 20px;
+   
+ }
+ textarea{
+  border-radius: 5px;
+ }
+input[type="submit"]{
+background: linear-gradient(#9acce7,#14B8FC);
+margin-top: 50px;
+border: none;
+padding: 20px 50px;
+font-size: 22px;
+cursor: pointer;
+font-weight: 700;
+color: white;
+border-radius: 50px;
+}
+
+/* footer section css */
+
+footer{
+  text-align: center;
+  background-color: #0B0D17;
+  padding: 50px;
+}
+
+footer h2{
+  font-size: 4rem;
+  color: #F9B402;
+  font-family: 'Aladin', cursive;
+}
+
+footer span{
+  color: #F9194F;
+}
+
+footer p{
+  font-size: 20px;
+  padding: 30px 0;
+}
+.copyright{
+  padding: 50px 0;
+}
+
+/* subscribe-section css */
+
+.subscribe-section{
+  display: flex;
+  padding: 100px;
+  box-shadow: 10px 10px 40px rgb(219, 215, 215);
+  width: 70%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+.sub-box{
+  width: 33%;
+  margin-left: 10%;
+}
+.sub-box h1{
+  font-size: 5rem;
+  color: black;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.sub-box h2{
+  font-weight: 100;
+}
