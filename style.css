@@ -66,9 +66,10 @@ display: inline-block;
   padding-bottom: 10px;
   line-height: 80px;
  color: #575757;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .half p{
-font-size: 1.5rem;
+  font-size: 20px;
 line-height: 45PX;
 padding: 30PX  0;
 word-spacing: 5px;
@@ -111,6 +112,7 @@ padding-top: 30%;
 .a-content h1{
   font-size: 3.5rem;
   color: #575757;
+  font-family: 'Aladin', cursive;
 }
 .a-content p{
 margin-bottom: 50px;
@@ -129,8 +131,9 @@ font-size: 20px;
 }
 
 .r-content h1{
- font-size: 3rem;
+ font-size: 3.5rem;
  color: #F9B402;
+ font-family: 'Aladin', cursive;
 }
 
 .r-content span{
@@ -178,8 +181,9 @@ padding-bottom: 50px;
 }
 .order h1{
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #F9B402;
+  font-family: 'Aladin', cursive;
 }
 .order span{
 color:#F9194F;
