@@ -67,7 +67,7 @@ display: inline-block;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .half p{
-  font-size: 20px;
+font-size: 20px;
 line-height: 45PX;
 padding: 30PX  0;
 word-spacing: 5px;
@@ -79,7 +79,7 @@ padding-bottom: 50px;
   padding: 20px 45px;
   background: linear-gradient(#9acce7,#14B8FC);
   border-radius: 50px;
-  font-weight: 600;
+ font-weight: 600;
  font-size: 22px;
  letter-spacing: 1px;
 }
@@ -149,7 +149,7 @@ font-size: 20px;
 
 .r-card{
   width: 20%;
-  margin-left: 150px;
+  margin-left: 180px;
   margin-top: 100px;
   box-shadow: 10px 10px 40px rgb(187, 181, 181);
   text-align: center;
