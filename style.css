@@ -12,7 +12,7 @@ text-transform: capitalize;
 header{
   display: flex;
   width: 100%;
-  position: fixed;
+
   justify-content: space-between;
   box-shadow: 10px 10px 30px rgb(241, 240, 240);
   background-color: white;
@@ -42,9 +42,7 @@ display: inline-block;
   text-decoration: none;
   color: black;
   margin-right: 50px;
-  font-size: 20px;
-  font-weight: 600;
-
+  font-size: 18px;
 }
 
 .flex{
@@ -234,33 +232,6 @@ font-weight: 700;
 color: white;
 border-radius: 50px;
 }
-
-/* footer section css */
-
-footer{
-  text-align: center;
-  background-color: #0B0D17;
-  padding: 50px;
-}
-
-footer h2{
-  font-size: 4rem;
-  color: #F9B402;
-  font-family: 'Aladin', cursive;
-}
-
-footer span{
-  color: #F9194F;
-}
-
-footer p{
-  font-size: 20px;
-  padding: 30px 0;
-}
-.copyright{
-  padding: 50px 0;
-}
-
 /* subscribe-section css */
 
 .subscribe-section{
@@ -285,3 +256,30 @@ footer p{
 .sub-box h2{
   font-weight: 100;
 }
+
+/* footer section css */
+
+footer{
+  text-align: center;
+  background-color: #0B0D17;
+  padding: 50px;
+}
+
+footer h2{
+  font-size: 4rem;
+  color: #F9B402;
+  font-family: 'Aladin', cursive;
+}
+
+footer span{
+  color: #F9194F;
+}
+
+footer p{
+  font-size: 20px;
+  padding: 30px 0;
+}
+.copyright{
+padding: 20px;
+}
+
